@@ -1,8 +1,8 @@
 // Declaraciòn de variable para guardar el resultado de la suma
-// let tomi = function (a, b) {return a + b}
-// let resultado = alert (tomi (3,7));
-// let mai = function (a, b) {return a - b}
-// let resultadoo = alert(mai(23,1));
+let tomi = function (a, b) {return a + b}
+let resultado = alert (tomi (3,7));
+let mai = function (a, b) {return a - b}
+let resultadoo = alert(mai(23,1));
 
 
 
@@ -23,8 +23,16 @@ areaTriangulo = calcularAreaTriangulo (6, 4);
 
 console.log (areaTriangulo);
 
-// Actividad de repaso: Goles del campeon 🏆⚽ // Escribí una función en JavaScript que calcule la cantidad total de goles marcados por un jugador en una temporada y almacene el resultado en una variable global. La función debe tomar como parámetros la cantidad de partidos jugados y el promedio de goles por partido. Luego, muestra el resultado almacenado en la variable global en la consola.
+// Actividad de repaso: Goles del campeon 🏆⚽ // Escribí una función en JavaScript que calcule la cantidad total de goles marcados por messi en el mundial y que almacene el resultado en una variable global. La función debe tomar como parámetros la cantidad de partidos jugados y el promedio de goles por partido. Luego, muestra el resultado almacenado en la variable global en la consola.
 
+let cantidadTotalGoles;
+
+function calcularCantidadTotalGoles (partidosJugados, golesPorPartido) {
+    return partidosJugados * golesPorPartido;
+}
+
+cantidadTotalGoles = calcularCantidadTotalGoles (7,1);
+console.log (cantidadTotalGoles);
 
 
 
