@@ -23,6 +23,8 @@ areaTriangulo = calcularAreaTriangulo (6, 4);
 
 console.log (areaTriangulo);
 
+
+
 // Actividad de repaso: Goles del campeon 🏆⚽ // Escribí una función en JavaScript que calcule la cantidad total de goles marcados por messi en el mundial y que almacene el resultado en una variable global. La función debe tomar como parámetros la cantidad de partidos jugados y el promedio de goles por partido. Luego, muestra el resultado almacenado en la variable global en la consola.
 
 let cantidadTotalGoles;
@@ -33,6 +35,32 @@ function calcularCantidadTotalGoles (partidosJugados, golesPorPartido) {
 
 cantidadTotalGoles = calcularCantidadTotalGoles (7,1);
 console.log (cantidadTotalGoles);
+
+
+
+// Actividad de repaso: Multiplicación y División con Función Anónima // Crea una función anónima en JavaScript que multiplique dos números y divida el resultado por 6. Almacena el resultado en una variable global. Llama a la función anónima con algunos valores de prueba y mostra el resultado en la consola.
+
+let resultado2;
+
+let funcionAnonima = function (a, b) {return (a * b) / 6}
+
+resultado2 = funcionAnonima (2, 6);
+
+console.log (resultado2);
+
+
+
+// Actividad de repaso: Goles en Partidos Clave 🏆⚽🚀 // Desarrolla una función anónima que reciba la cantidad de goles marcados por la selección en tres partidos clave de la Copa del Mundo y retorne el total de goles. Almacena el resultado en una variable global y muéstralo en la consola.
+
+let cantidadTotalGoles2;
+
+let partidosClave = (vsFrancia, vsCroacia, vsHolanda) => {return vsFrancia + vsCroacia + vsHolanda;}
+
+cantidadTotalGoles2 = partidosClave (3,3,2);
+
+console.log (cantidadTotalGoles2);
+
+
 
 
 
@@ -48,6 +76,7 @@ console.log (cantidadTotalGoles);
 
 // 2. ¿Cómo se almacena el valor de una variable desde una función con return?
 // Para almacenar el valor de una variable desde una función con return, hacemos lo siguiente:
+
 function nave (a, b) {
     return a + b; 
 }
@@ -56,8 +85,10 @@ let sumar = nave (1,2);
 console.log (sumar);
 
 // 3. ¿Qué es el scope y cuál es la diferencia entre scope local y global?
+// Llamamos Scope a la zona donde declaramos las variables, sean dentro de una función o bloque de código específico (local) o fuera de la función o bloque específico (global).
 
 // 4. ¿Qué sucede si declaramos una variable con el mismo nombre en el scope local y global?
+// Es importante saber que, cuando declaramos una variable exactamente igual dentro de la zona local como otra en la zona global, ambas son variables diferentes.
 
 // 5. ¿Qué es una función anónima y cómo se declara?
 
