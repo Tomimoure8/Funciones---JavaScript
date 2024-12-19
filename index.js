@@ -62,6 +62,9 @@ console.log (cantidadTotalGoles2);
 
 
 
+// Actividad de repaso: Jugadores en la cancha 🏆⚽🚀 // Escribí una función flecha que reciba un array con los nombres de los jugadores que empezaron en el once inicial y otro array con los nombres de los jugadores que ingresaron como suplentes. La función debe retornar un array combinado con todos los jugadores que participaron en el partido. Muestra el resultado en la consola. (PENDIENTE)
+
+
 
 
 // CLASE 4: Funciones
@@ -91,15 +94,23 @@ console.log (sumar);
 // Es importante saber que, cuando declaramos una variable exactamente igual dentro de la zona local como otra en la zona global, ambas son variables diferentes.
 
 // 5. ¿Qué es una función anónima y cómo se declara?
+// Las funciones anónimas son las funciones que no requieren de un nombre a la hora de declarar la función.
 
 // 6. ¿Cuál es la ventaja de utilizar funciones anónimas en JavaScript?
+// La ventaja de utilizar funciones anonimas en Js es que, además de no requerir el nombre al declarar la función, tampoco lo requiere cuando la llamamos. Y, al almacenar el resultado de la variable, en vez de escribir el nombre de la función vamos a escribir el nombre de la variable solamente. Además, las funciones anónimas podemos declararlas en una misma línea.
 
-// 7. Escribe un ejemplo de una función anónima que sume dos números y almacene el resultado en una variable.
+// 8. ¿En qué se diferencia la función flecha con la anónima?
+// Las funciones flecha son las funciones que no requieren de un nombre ni de la palabra function a la hora de declararlas.
 
-// 8. ¿Cómo se puede reutilizar una función en diferentes partes de un programa?
+// 9. ¿Cómo se puede reutilizar una función en diferentes partes de un programa?
 
-// 9. ¿Qué es el return en una función y cuál es su propósito?
-// 10. ¿Cómo afecta el scope a la accesibilidad de las variables en un programa?
+// 10. ¿Qué es el return en una función y cuál es su propósito?
+// Imaginemos que el return es nuestro astronauta que viaja a la nave (la funcion sumar), éste realiza la operación y trae de vuelta el resultado, y la variable resultado es donde guardamos ese descubrimiento. 
+
+// 11. ¿Cómo afecta el scope a la accesibilidad de las variables en un programa?
+// Las variables declaradas fuera de cualquier función tienen un scope global y pueden ser accedidas desde cualquier parte del programa. Sin embargo, Las variables declaradas dentro de una función solo son accesibles dentro de esa función.
+
+
 
 
 
